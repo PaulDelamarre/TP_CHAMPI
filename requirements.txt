@@ -68,7 +68,7 @@ cymem==2.0.7
 Cython @ file:///opt/concourse/worker/volumes/live/da4db94a-3449-4978-4400-64181f888dab/volume/cython_1618435143829/work
 cytoolz==0.11.0
 dask @ file:///tmp/build/80754af9/dask-core_1617390489108/work
-decorator @ file:///tmp/build/80754af9/decorator_1617916966915/work
+decorator==4.4.2
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 dictdiffer==0.9.0
 diff-match-patch @ file:///tmp/build/80754af9/diff-match-patch_1594828741838/work
@@ -77,6 +77,7 @@ distributed @ file:///opt/concourse/worker/volumes/live/061a375f-fbe4-45b4-4d80-
 dlib==19.24.99
 dnspython==2.3.0
 docutils @ file:///opt/concourse/worker/volumes/live/c75adaac-4aab-4f8b-53ac-e2f0ae899bdf/volume/docutils_1617481416178/work
+dropbox==11.36.0
 dtreeviz==2.2.0
 entrypoints==0.3
 et-xmlfile==1.0.1
@@ -90,7 +91,7 @@ fastprogress==1.0.3
 filelock==3.6.0
 flake8 @ file:///tmp/build/80754af9/flake8_1615834841867/work
 Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
-flatbuffers==2.0
+flatbuffers==1.12
 folium==0.14.0
 fsspec @ file:///tmp/build/80754af9/fsspec_1617959894824/work
 future==0.18.2
@@ -100,9 +101,13 @@ gitdb==4.0.10
 GitPython==3.1.31
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 gmpy2==2.0.8
-google-auth==2.8.0
+google-api-core==2.11.0
+google-api-python-client==2.81.0
+google-auth==2.16.2
+google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
+googleapis-common-protos==1.58.0
 graphviz==0.20.1
 greenlet @ file:///opt/concourse/worker/volumes/live/de3154a2-fbbd-4797-71f5-5fe8ea617adf/volume/greenlet_1611958369459/work
 grpcio==1.46.3
@@ -111,9 +116,11 @@ h5py==2.10.0
 HeapDict==1.0.1
 html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
 httpcore==0.15.0
+httplib2==0.21.0
 httpx==0.23.0
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+imageio-ffmpeg==0.4.8
 imagesize @ file:///home/ktietz/src/ci/imagesize_1611921604382/work
 importlib-metadata==4.11.4
 iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
@@ -167,6 +174,7 @@ mkl-random @ file:///opt/concourse/worker/volumes/live/54b31a45-1da5-4512-5c3a-9
 mkl-service==2.3.0
 mock @ file:///tmp/build/80754af9/mock_1607622725907/work
 more-itertools @ file:///tmp/build/80754af9/more-itertools_1613676688952/work
+moviepy==1.0.3
 mpmath==1.2.1
 msgpack @ file:///opt/concourse/worker/volumes/live/d7400f3a-e5de-4e85-5d4c-0c984c648401/volume/msgpack-python_1612287157185/work
 multipledispatch==0.6.0
@@ -218,9 +226,10 @@ pluggy @ file:///opt/concourse/worker/volumes/live/2d655872-b6f5-4225-538c-dd87e
 ply==3.11
 preshed==3.0.8
 prettytable==0.7.2
+proglog==0.1.10
 prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1618088486455/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
-protobuf==3.19.4
+protobuf==4.22.1
 psutil @ file:///opt/concourse/worker/volumes/live/0673cd4b-30c1-4470-7490-d8955610f5d5/volume/psutil_1612298002202/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 py @ file:///tmp/build/80754af9/py_1607971587848/work
@@ -282,7 +291,9 @@ Rtree @ file:///opt/concourse/worker/volumes/live/7b97d6e1-aeee-4f6d-418c-32be5b
 ruamel-yaml-conda @ file:///opt/concourse/worker/volumes/live/53b096c9-f5b7-4029-7f1b-056927554e08/volume/ruamel_yaml_1616016691174/work
 scikit-image==0.18.1
 scikit-learn==1.1.1
+scikit-plot==0.3.7
 scipy @ file:///opt/concourse/worker/volumes/live/7d10d993-3825-404e-6e5d-9947c19e8c6d/volume/scipy_1618855951189/work
+scrapetube==2.3.1
 seaborn @ file:///tmp/build/80754af9/seaborn_1608578541026/work
 semver==2.13.0
 Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
@@ -314,6 +325,7 @@ spyder-kernels @ file:///opt/concourse/worker/volumes/live/12a19b85-7733-4e39-55
 SQLAlchemy @ file:///opt/concourse/worker/volumes/live/31df50e1-4e8b-40a3-6d21-5c6d01ae48e8/volume/sqlalchemy_1618089538006/work
 srsly==2.4.5
 statsmodels @ file:///opt/concourse/worker/volumes/live/f55add71-53cb-4510-4c08-7ae9e294a482/volume/statsmodels_1614023740731/work
+stone==3.3.1
 streamlit==1.19.0
 sympy @ file:///opt/concourse/worker/volumes/live/0bf7d347-8399-4af8-5e6f-4267d4aabdd9/volume/sympy_1618255318469/work
 tables==3.6.1
@@ -350,6 +362,7 @@ tzdata==2022.7
 tzlocal==4.2
 ujson @ file:///opt/concourse/worker/volumes/live/b4182deb-c6ce-4bc8-7783-61027c162049/volume/ujson_1611259506235/work
 unicodecsv==0.14.1
+uritemplate==4.1.1
 urllib3 @ file:///tmp/build/80754af9/urllib3_1615837158687/work
 validators==0.20.0
 virtualenv==20.13.3
