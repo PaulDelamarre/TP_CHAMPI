@@ -1,6 +1,32 @@
+
 # TP_CHAMPI
 
+# Structure du GITHUB
+Au cours de ce projet, nous avons décidé de **produire un modèle de reconnaissance automatique sur le TOP 10 des Champignons français accepté sur le site *http://mushroomobserver.org/* avec une confiance supérieure à 0.95.** 
 
+Pour récupérer le projet, il suffit dans un terminal de  :
+
+    git clone https://github.com/PaulDelamarre/TP_CHAMPI.git
+
+Dans notre cas nous avons réalisé **4 notebooks** :
+
+ - **1_ExplorationDonnées_ChoixProblématique.ipynb**
+
+Au cours de ce notebook, nous importons les données JSON. Nous définissons notre problématique de projet. En sortie, nous obtenons 2 dataframes (1 au format .csv - 1 obtenu a chaque fois en relançant une fonction car pas possible d'exporter en .csv et .pickle a cause de la taille)
+
+ - **2_Etude_RGB&TailleImage.ipynb**
+ 
+Dans ce notebook, nous réalisons plusieurs études pour découvrir notre dataset d'étude (notamment sur les tailles d'images, sur les couleurs RGB ...)
+
+ - **3_deeplearning1.ipynb**
+ 
+Au cours de ce notebook, nous construisons plusieurs réseaux de neurones à la main et comparons les résultats.
+
+ - **4_deeplearning2-resnet.ipynb**
+ 
+ Dans ce notebook, nous utilisons le réseau de neurones pré entrainé (ResNet34) pour le fine tuner sur notre dataset. Nous produisons également des sorties pour réaliser un tableau de bord sous Power BI.
+
+Le tableau de bord n'a pas pu être publié car il est trop volumineux, il sera présenté le jour de la soutenance. Tout notre projet est présenté en détail dans le rapport rendu sur Moodle.
 
 # Règle générale :
 
@@ -50,8 +76,7 @@ L'ensemble codes + rapport est attendu au plus tard le 01 Mai. La présentation 
 
 # 4ème sujet : Reconnaissance automatique de champignons
 
-Challenge ? Le projet consiste à créer un modèle de reconnaissance automatique de
-champignons.
+Challenge ? Le projet consiste à créer un modèle de reconnaissance automatique de champignons.
 
 Voici une adresse : [https://github.com/bechtle/mushroomobser-dataset](https://github.com/bechtle/mushroomobser-dataset).
 
@@ -61,4 +86,5 @@ Dans ce projet, vous devrez absolument choisir et poursuivre un axe de recherche
 à priori, vous ne pourrez pas réaliser des prédictions solides pour toutes images de
 champignons disponibles. Il faudra notamment choisir l’échelle à laquelle vous souhaitez
 travailler (échelle dans la classification phylogénique : espèce, famille, genre………).
+
 
